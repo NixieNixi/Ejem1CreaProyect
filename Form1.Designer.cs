@@ -41,6 +41,7 @@ namespace Ejem1CreaProyect
             this.txtx1 = new System.Windows.Forms.TextBox();
             this.txtx2 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnFin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,24 +80,25 @@ namespace Ejem1CreaProyect
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(48, 256);
+            this.label4.Location = new System.Drawing.Point(49, 257);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(27, 13);
             this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.label4.Text = "x1 =";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 303);
+            this.label5.Location = new System.Drawing.Point(52, 304);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(27, 13);
             this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.label5.Text = "x2 =";
             // 
             // txta
             // 
@@ -143,11 +145,22 @@ namespace Ejem1CreaProyect
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // btnFin
+            // 
+            this.btnFin.Location = new System.Drawing.Point(326, 358);
+            this.btnFin.Name = "btnFin";
+            this.btnFin.Size = new System.Drawing.Size(75, 23);
+            this.btnFin.TabIndex = 12;
+            this.btnFin.Text = "Fin Programa";
+            this.btnFin.UseVisualStyleBackColor = true;
+            this.btnFin.Click += new System.EventHandler(this.btnFin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFin);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtx2);
             this.Controls.Add(this.txtx1);
@@ -186,6 +199,7 @@ namespace Ejem1CreaProyect
         private System.Windows.Forms.TextBox txtx1;
         private System.Windows.Forms.TextBox txtx2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnFin;
     }
 }
 
