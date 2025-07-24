@@ -29,56 +29,56 @@ namespace Ejem1CreaProyect
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lbla = new System.Windows.Forms.Label();
+            this.lblb = new System.Windows.Forms.Label();
+            this.lblc = new System.Windows.Forms.Label();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txta = new System.Windows.Forms.TextBox();
+            this.txtb = new System.Windows.Forms.TextBox();
+            this.txtc = new System.Windows.Forms.TextBox();
+            this.txtx1 = new System.Windows.Forms.TextBox();
+            this.txtx2 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lbla
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lbla.AutoSize = true;
+            this.lbla.Location = new System.Drawing.Point(43, 45);
+            this.lbla.Name = "lbla";
+            this.lbla.Size = new System.Drawing.Size(22, 13);
+            this.lbla.TabIndex = 0;
+            this.lbla.Text = "a =";
             // 
-            // label2
+            // lblb
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblb.AutoSize = true;
+            this.lblb.Location = new System.Drawing.Point(46, 84);
+            this.lblb.Name = "lblb";
+            this.lblb.Size = new System.Drawing.Size(22, 13);
+            this.lblb.TabIndex = 1;
+            this.lblb.Text = "b =";
             // 
-            // label3
+            // lblc
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 123);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblc.AutoSize = true;
+            this.lblc.Location = new System.Drawing.Point(46, 124);
+            this.lblc.Name = "lblc";
+            this.lblc.Size = new System.Drawing.Size(22, 13);
+            this.lblc.TabIndex = 2;
+            this.lblc.Text = "c =";
             // 
-            // button1
+            // btnCalcular
             // 
-            this.button1.Location = new System.Drawing.Point(83, 179);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 33);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCalcular.Location = new System.Drawing.Point(83, 179);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(133, 33);
+            this.btnCalcular.TabIndex = 3;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -98,40 +98,42 @@ namespace Ejem1CreaProyect
             this.label5.TabIndex = 5;
             this.label5.Text = "label5";
             // 
-            // textBox1
+            // txta
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.txta.Location = new System.Drawing.Point(93, 44);
+            this.txta.Name = "txta";
+            this.txta.Size = new System.Drawing.Size(100, 20);
+            this.txta.TabIndex = 6;
             // 
-            // textBox2
+            // txtb
             // 
-            this.textBox2.Location = new System.Drawing.Point(93, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtb.Location = new System.Drawing.Point(93, 83);
+            this.txtb.Name = "txtb";
+            this.txtb.Size = new System.Drawing.Size(100, 20);
+            this.txtb.TabIndex = 7;
             // 
-            // textBox3
+            // txtc
             // 
-            this.textBox3.Location = new System.Drawing.Point(93, 123);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtc.Location = new System.Drawing.Point(93, 123);
+            this.txtc.Name = "txtc";
+            this.txtc.Size = new System.Drawing.Size(100, 20);
+            this.txtc.TabIndex = 8;
             // 
-            // textBox4
+            // txtx1
             // 
-            this.textBox4.Location = new System.Drawing.Point(116, 256);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 9;
+            this.txtx1.Location = new System.Drawing.Point(116, 256);
+            this.txtx1.Name = "txtx1";
+            this.txtx1.ReadOnly = true;
+            this.txtx1.Size = new System.Drawing.Size(100, 20);
+            this.txtx1.TabIndex = 9;
             // 
-            // textBox5
+            // txtx2
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 295);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtx2.Location = new System.Drawing.Point(116, 295);
+            this.txtx2.Name = "txtx2";
+            this.txtx2.ReadOnly = true;
+            this.txtx2.Size = new System.Drawing.Size(100, 20);
+            this.txtx2.TabIndex = 10;
             // 
             // pictureBox1
             // 
@@ -147,19 +149,23 @@ namespace Ejem1CreaProyect
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtx2);
+            this.Controls.Add(this.txtx1);
+            this.Controls.Add(this.txtc);
+            this.Controls.Add(this.txtb);
+            this.Controls.Add(this.txta);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.lblc);
+            this.Controls.Add(this.lblb);
+            this.Controls.Add(this.lbla);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ecuaciones Cuadraticas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -168,17 +174,17 @@ namespace Ejem1CreaProyect
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbla;
+        private System.Windows.Forms.Label lblb;
+        private System.Windows.Forms.Label lblc;
+        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txta;
+        private System.Windows.Forms.TextBox txtb;
+        private System.Windows.Forms.TextBox txtc;
+        private System.Windows.Forms.TextBox txtx1;
+        private System.Windows.Forms.TextBox txtx2;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
